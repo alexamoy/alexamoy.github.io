@@ -65,13 +65,15 @@ body {
   padding: 14px;
   text-decoration: none;
 }
+#navbar a:hover {
+  color: #4a97ef;
+}
 
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
 }
-
 
 /*Background*/
 #background-text {
@@ -120,6 +122,13 @@ body {
 .gh-icon {
   height: 4.5vh;
   filter: invert(90%);
+}
+.gh-icon:hover {
+  height: 5vh;
+  opacity: .9;
+}
+.sm-icon:hover {
+  height: 5.5vh;
 }
 
 /*About Me*/
@@ -227,6 +236,8 @@ body {
   justify-content: space-around;
   min-width: 60vw;
 }
+
+
 /*Contact*/
 #contact {
   background-color: #f1f1f1;
@@ -259,7 +270,7 @@ body {
   flex-direction: row;
   float: left;
   margin-left: 35%;
-  margin-bottom: 3%;
+  margin-bottom: 2%;
 }
 .contact-item img {
   height: 2.5vh;
