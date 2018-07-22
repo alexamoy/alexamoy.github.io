@@ -14,6 +14,11 @@ h4 {
   font-size: 4vw;
   font-weight: 100;
 }
+h3 {
+  font-family: 'Roboto', san-serif;
+  font-size: 3vh;
+  font-weight: 100;
+}
 p {
   font-family: 'Roboto', sans-serif;
   font-size: 1vw;
@@ -155,6 +160,9 @@ body {
   #img-about-container {
     flex-wrap: wrap;
   }
+  .individual-project {
+    flex-wrap: wrap;
+  }
 }
 
 /*Projects*/
@@ -162,16 +170,16 @@ body {
   background-color: white;
   /* background-color: rgb(199, 201, 204); */
 }
-#projects-container {
+.projects-container {
   display: flex;
   text-align: center;
   justify-content: center;
   flex-direction: column;
 }
-#projects-container h2{
+.projects-container h2{
   margin-bottom: 0;
 }
-#projects-container h4 {
+.projects-container h3 {
   margin-top: 0;
   margin-left: 2vw;
   text-align: left;
@@ -179,7 +187,32 @@ body {
 .allBoards-image {
   height: 35vh;
   width: auto;
+  box-shadow:5px 5px 5px #999;
 }
+
+.individual-project {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2% 7% 2% 7%;
+
+}
+
+.project-info {
+  text-align: left;
+  margin-right: 4%
+}
+.project-info h3 {
+  margin-left: 0;
+  margin-bottom: 0;
+}
+.project-info p {
+  font-size: 15px;
+}
+.line-break {
+  width: 50%;
+}
+
 /*Contact*/
 #contact {
   background-color: #f1f1f1;
