@@ -163,6 +163,12 @@ body {
   .individual-project {
     flex-wrap: wrap;
   }
+  .screenshots {
+    flex-wrap: wrap;
+  }
+  .project-info {
+    min-width: 90vw;
+  }
 }
 
 /*Projects*/
@@ -184,10 +190,11 @@ body {
   margin-left: 2vw;
   text-align: left;
 }
-.allBoards-image {
+.sc-image {
   height: 35vh;
   width: auto;
   box-shadow:5px 5px 5px #999;
+  margin: 5%;
 }
 
 .individual-project {
@@ -200,7 +207,8 @@ body {
 
 .project-info {
   text-align: left;
-  margin-right: 4%
+  margin-right: 4%;
+  max-width: 30vw;
 }
 .project-info h3 {
   margin-left: 0;
@@ -212,7 +220,12 @@ body {
 .line-break {
   width: 50%;
 }
-
+.screenshots {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  min-width: 60vw;
+}
 /*Contact*/
 #contact {
   background-color: #f1f1f1;
