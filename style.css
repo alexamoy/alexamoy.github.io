@@ -169,6 +169,7 @@ body {
   .project-info {
     min-width: 90vw;
   }
+
 }
 
 /*Projects*/
@@ -229,6 +230,8 @@ body {
 /*Contact*/
 #contact {
   background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
   /* background-color: rgb(199, 201, 204); */
 }
 #contact-container {
@@ -240,7 +243,7 @@ body {
 }
 
 #contact-container h2 {
-  margin-bottom: 0;
+  margin-bottom: 2vh;
 }
 
 #contact-container p {
@@ -250,4 +253,24 @@ body {
 
 .giphy-embed {
   margin: 2%;
+}
+.contact-item {
+  display: flex;
+  flex-direction: row;
+  float: left;
+  margin-left: 35%;
+  margin-bottom: 3%;
+}
+.contact-item img {
+  height: 2.5vh;
+  margin-right: 5px;
+}
+.contact-item a {
+  text-decoration: none;
+}
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40vw;
 }
