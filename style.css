@@ -168,6 +168,7 @@ body {
 @media only screen and (max-width: 420px) {
   #img-about-container {
     flex-wrap: wrap;
+    justify-content: center;
   }
   .individual-project {
     flex-wrap: wrap;
