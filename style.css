@@ -151,9 +151,20 @@ body {
   display: flex;
   flex-direction: row;
   margin: 3%;
-
 }
 
+#headshot {
+  height: 25%;
+  width: 25%;
+  border-radius: 50%;
+}
+
+#headshot {
+  border-radius: 50%;
+}
+#headshot {
+  border-radius: 50%;
+}
 #about-paragraph {
   display: flex;
   flex-direction: column;
@@ -194,13 +205,13 @@ body {
   flex-direction: column;
 }
 
-.timeline {
+#experience-timeline {
   position: relative;
   margin: 0 auto;
   width: 50%;
 }
 
-.timeline::after {
+#experience-timeline::after {
   content: '';
   position: absolute;
   width: 6px;

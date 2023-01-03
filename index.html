@@ -13,7 +13,6 @@
   <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css"> -->
   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-  <script src="index.js" defer></script>
 </head>
 
 
@@ -25,7 +24,6 @@
       <a href='#about' class='navbar-links'>About</a>
       <a href='#projects' class='navbar-links'>Projects</a>
       <a href='#contact' class='navbar-links'>Contact</a>
-      <!-- <a href='/Users/alexamoy/Documents/FSAfellowship/Engineering/alexamoy.github.io/documents/ShiWa_Moy.pdf' class='navbar-links'>Resume</a> -->
     </div>
 
     <section id='home'>
@@ -36,14 +34,14 @@
           <a href='mailto:s.alexa.moy@gmail.com' title='Email'>
             <img class='gh-icon' src='images/mail.png' />
           </a>
-          <a href='https://github.com/alexamoy' title='Github'>
+          <a href='https://github.com/alexamoy' target="_blank" title='Github'>
             <img class='gh-icon' src='images/github.png' />
           </a>
-          <a href='https://www.linkedin.com/in/shi-wa-moy/' title='LinkedIn'>
+          <a href='https://www.linkedin.com/in/shi-wa-moy/' target="_blank" title='LinkedIn'>
             <img class='sm-icon' src='images/linkedin.png' />
           </a>
-          <a href='https://medium.com/@alexamoy' title='Medium'>
-            <img class='sm-icon' src='images/medium.png' />
+          <a href='documents/ShiWa_Moy.pdf' target="_blank" title='Resume'>
+            <img class='sm-icon' src='images/resume-icon.png' />
           </a>
         </div>
       </div>
@@ -54,10 +52,10 @@
       <div id='aboutme-container'>
         <h2>This is me!</h2>
         <div id='img-about-container'>
-          <img id='headshot' src="images/headshot.jpg" />
+          <img id='headshot' src="images/headshot.jpeg" />
           <div id='about-paragraph'>
             <p>Hello World!</p>
-            <p>Alexa here, looking to learn and develop quality web applications while keeping my cat happy too.</p>
+            <p>Alexa here, just another software engineer eager to learn and develop high quality web applications while keeping my cat happy too. My primary language of choice is Javascript, however I like to dabble with Java and Python as well. Some of my other interests include video games (my favorite games are Tetris and Hollow Knight) and playing the piano (unfortunately my small apartment only has room for a keyboard but I hope to have space for a baby grand piano one day).</p>
           </div>
         </div>
       </div>
@@ -66,50 +64,8 @@
     <section id='timeline'>
       <div class='timeline-container'>
         <h2>TLDR</h2>
-        <div class="timeline">
-          <div class="container left">
-            <div class="content">
-              <h3>August 2019 - Current</h3>
-              <p>T. Rowe Price</p>
-              <p>Associate Software Engineer</p>
-            </div>
-          </div>
-          <div class="container right">
-            <div class="content">
-              <h3>October 2018 - August 2019</h3>
-              <p>Cognizant::J.P. Morgan</p>
-              <p>Associate Software Engineer</p>
-            </div>
-          </div>
-          <div class="container left">
-              <div class="content">
-                <h3>May 2018 - August 2018</h3>
-                <p>Fullstack Academy</p>
-                <p>Teaching Fellow</p>
-              </div>
-          </div>
-          <div class="container right">
-              <div class="content">
-                <h3>January 2018 - May 2018</h3>
-                <p>Fullstack Academy</p>
-                <p>Grace Hopper Program</p>
-              </div>
-          </div>
-          <div class="container left">
-              <div class="content">
-                <h3>September 2017 - December 2017</h3>
-                <p>Raritan Valley Community College</p>
-                <p>Systems Analysis and Design</p>
-                <p>Computer Concepts and Programming</p>
-              </div>
-          </div>
-          <div class="container right">
-              <div class="content">
-                <h3>September 2013 - May 2017</h3>
-                <p>University of Maryland, College Park</p>
-                <p>B.A. Economics</p>
-              </div>
-          </div>
+        <div id="experience-timeline">
+          <script type="module" src="index.js"></script>
         </div>
       </div>
     </section>

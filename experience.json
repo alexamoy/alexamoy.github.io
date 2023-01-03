@@ -1,0 +1,42 @@
+[
+    {
+        "company_education": "Twitter",
+        "role": "Software Engineer II",
+        "dates": "May 2022 - Current"
+    },
+    {
+        "company_education": "T. Rowe Price",
+        "role": "Software Engineer",
+        "dates": "December 2020 - May 2022"
+    },
+    {
+        "company_education": "T. Rowe Price",
+        "role": "Associate Software Engineer",
+        "dates": "August 2019 - December 2020"
+    },
+    {
+        "company_education": "Cognizant::J.P. Morgan",
+        "role": "Fullstack Engineer",
+        "dates": "October 2018 - August 2019"
+    },
+    {
+        "company_education": "Fullstack Academy",
+        "role": "Teaching Fellow",
+        "dates": "May 2018 - August 2018"
+    },
+    {
+        "company_education": "Fullstack Academy",
+        "role": "Student::Grace Hopper Program",
+        "dates": "January 2018 - May 2018"
+    },
+    {
+        "company_education": "Raritan Valley Community College",
+        "role": "Courses: Systems Analysis and Design, Computer Concepts and Programming",
+        "dates": "September 2017 - December 2017"
+    },
+    {
+        "company_education": "University of Maryland, College Park",
+        "role": "B.A. Economics",
+        "dates": "September 2013 - May 2017"
+    }
+]
